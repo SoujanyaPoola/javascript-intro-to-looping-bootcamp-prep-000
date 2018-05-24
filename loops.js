@@ -26,12 +26,10 @@ function forLoop(array)
 }
 
  function doWhileLoop(ar){
-    function maybeTrue() {
-  return Math.random() >= 0.5;
-}
+   
   do {
-    console.log(ar.length);
-    ar.shift();
+    
+    ar.pop();
   } while (ar.length > 0 && maybeTrue())
  }
  
