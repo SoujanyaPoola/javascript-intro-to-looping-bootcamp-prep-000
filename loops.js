@@ -21,12 +21,12 @@ function forLoop(array)
    return 'done';
  }
  
- function maybeTrue() {
-  return Math.random() >= 0.5;
-}
+
 
  function doWhileLoop(ar){
-   
+    function maybeTrue() {
+  return Math.random() >= 0.5;
+}
   do {
     
     ar.pop();
