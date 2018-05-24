@@ -31,5 +31,6 @@ function forLoop(array)
     
     ar.pop();
   } while (ar.length > 0 && maybeTrue())
+  console.array();
  }
  
